@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgba(0, 0, 23);
+    color: white;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(92, 71, 18);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: red;
+  }
+  nav ul li a:hover {
+    color: rgb(7, 6, 7);
+    font-size: 1.04rem;
+  }
+
+  main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+  }
+
+  .firstSection > div {
+    width: 30%;
+  }
+
+  .leftSection {
+    color: blue;
+    font-size: 2rem;
+    margin: 100px 0;
+  }
+
+  .rightSection img {
+    margin: 50px 0;
+  }
+
+  
+  .secondSection img {
+    margin: 50px 120px;
+  }
+
+  .yellow {
+    color: purple;
+
+  }
+  #element {
+    color: aquamarine;
+  }
+  .secondSection  {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .footer{
+    background-color: rgb(38, 34, 23);
+
+  
+  }
+  .footer{
+    display: flex;
+    padding: auto;
+    justify-content: space-evenly;
+  }
+  .footer ul{
+    list-style: none;
+  }
+  .footer > div{
+        width: 233px;
+  }
+  .footer-rights{
+    color: rgb(116, 104, 128);
+    background-color: rgb(38, 34, 23);
+    text-align: center;
+  }
+
+
+
+ /* This is for about.html */
+  #heading{
+    color: green;
+    margin: 10px 0px 10px 500px;
+  }
+  #para{
+    color: aqua;
+    margin: 30px 110px ;
+  }
+  .body1{
+    color: blue;
+    font-size: 1.6rem;
+    margin: 100px 0;
+  }
+
+  /* This is for contact section */
+
+  #contact{
+    color: aqua;
+    margin: 30px 400px 125px 400px ;
+  }
+
+  /* About section */
+
+.Cont{
+  display: flex;
+}
+
+#lleft{
+  height: 246px;
+  width: 700px;
+  float: left;
+  font-size: 30px;
+  color: aqua;
+  margin: 100px 100px;
+ 
+} 
+
+#rright img{
+  width: 200px;
+  background-color: red;
+  height: 200px;
+  float: right;
+  border-radius: 100%;
+  margin: 130px 100px ;
+}
+
+
+/* Style the image inside the centered container, if needed */
+/* .centered img {
+  width: 150px;
+  border-radius: 50%;
+} */
